@@ -1,0 +1,17 @@
+.addPatientContainer{
+    border-radius: 30px;
+    background-color: var(--primary-color);
+    width: 500px;
+    height: 120px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+    border-color: var(--secondary-color);
+}
+
+.editText{
+    font-size: 40px;
+    font-family: 'Marcellus';
+    color: var(--text-color);
+    font-weight: bolder;
+}

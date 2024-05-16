@@ -1,0 +1,51 @@
+/* styles.css */
+.myTable {
+    justify-content: "center";
+    border: "1px solid rgb(103, 212, 205);";
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f0f0f0;
+  }
+  
+  .myTableHeader {
+    text-align: center;
+    border: "1px solid blue";
+    justify-content: "center";
+    background-color: rgb(103, 212, 205);
+    color: white;
+    padding: 10px;
+    font-family: 'Marcellus';
+    font-size: 20px;
+    font-weight: bold;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+  }
+  
+  .myTableCell {
+    justify-content: "center";
+    border: 1px solid rgb(103, 212, 205);
+    padding: 10px;
+    text-align: center;
+    font-family: 'Marcellus';
+    font-size: 16px;
+    color: black;
+  }
+
+  .severityLevelContainer {
+    border-radius: 15px;
+    padding: 5px 10px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    width: 60px; /* Set the desired width */
+    margin: auto; /* Center align if needed */
+  }
+  /* Custom background colors for each severity level */
+  .level-1 { background-color: #ccff33; }
+  .level-2 { background-color: #ffdb4d; }
+  .level-3 { background-color: #ffcc00; }
+  .level-4 { background-color: #ff791a; }
+  .level-5 { background-color: #ff0000; }
+  
+  

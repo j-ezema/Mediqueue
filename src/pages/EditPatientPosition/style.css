@@ -1,0 +1,30 @@
+.FormText{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Marcellus";
+}
+.submit{
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: var(--primary-color);
+    margin-left: 10px;
+}
+.submitText{
+    font-size: 20px;
+    font-family: "Marcellus";
+    color: var(--text-color-2);
+    
+}
+.cancelText{
+    font-size: 20px;
+    font-family: "Marcellus";
+    color: var(--primary-color);
+    
+}
+.cancel{
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: var(--text-color);
+}
